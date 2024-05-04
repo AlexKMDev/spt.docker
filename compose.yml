@@ -1,0 +1,9 @@
+name: spt
+services:
+  server:
+    volumes:
+      - ./server:/opt/server
+    ports:
+      - 6969:6969
+    container_name: spt
+    image: spt
